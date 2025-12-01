@@ -1,5 +1,5 @@
 // src/api.js
-const API_BASE = 'https://customer-distribution.onrender.com/';
+const API_BASE = 'https://customer-distribution.onrender.com/api';
 
 export const login = async (email, password) => {
   const res = await fetch(`${API_BASE}/auth/login`, {
